@@ -6,12 +6,11 @@ body {
 }
 
 .profile, .projects, .certification, .contacts {
-    background-color: #47a0bd; /* Same background color as sidebar */
-    padding: 20px; /* Add padding */
-    border-radius: 10px; /* Optional: Add rounded corners */
-    color: white; /* Text color */
+    background-color: #47a0bd; 
+    padding: 20px; 
+    border-radius: 10px; 
+    color: white; 
 }
-
 
 .container {
     display: grid;
@@ -21,39 +20,38 @@ body {
         "sidebar main"
         "sidebar lowbar"
         "sidebar rectangle";
-    height: 100vh; /* Full height of the viewport */
-    background-color: #47a0bd; /* Background color for the container */
+    height: 100vh;
+    background-color: #47a0bd; 
 }
 
 .sidebar {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Align items to the left */
+    align-items: flex-start; 
     justify-content: center;
-    height: 100vh; /* Full height of the viewport */
+    height: 100vh; 
     grid-area: sidebar;
     background-color: #88BAC8;
-    padding-left: 20px; /* Add some padding to the left */
+    padding-left: 20px; 
 }
 
 .sidebar button {
-    margin: 10px 0; /* Space between buttons */
-    background-color: #88BAC8; /* Same background color as sidebar */
-    border: none; /* Remove border */
-    color: white; /* Button text color */
-    padding: 20px; /* Add some padding */
-    text-align: left; /* Left align text */
-    width: 100%; /* Full width */
-    cursor: pointer; /* Pointer cursor on hover */
+    margin: 10px 0; 
+    background-color: #88BAC8; 
+    border: none; 
+    color: white; 
+    padding: 20px; 
+    text-align: left; 
+    width: 100%; 
+    cursor: pointer; 
 }
 
 .sidebar button:hover {
-    background-color: #76A5B7; /* Slightly darker color on hover */
+    background-color: #76A5B7; 
 }
 
 .rectangle, .lowbar, .main {
     background-color: #47a0bd; /* Background color for other elements */
-    
 }
 
 .main {
@@ -91,7 +89,7 @@ body {
     justify-content: center; /* Center items horizontally */
     gap: 100px; /* Space between project items */
     padding: 30px; /* Add padding */
-    height: 100vh; /* Full height to center vertically */
+    height: 100vh; 
 }
 
 .project-item {
@@ -175,4 +173,44 @@ body {
     width: 30px; /* Set width for the icon */
     height: 30px; /* Set height for the icon */
     margin-right: 10px; /* Space between icon and text */
+}body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.profile, .projects, .certification, .contacts {
+    background-color: #47a0bd; 
+    padding: 20px; 
+    border-radius: 10px; 
+    color: white; 
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    grid-template-columns: 200px 1fr;
+    grid-template-areas:
+        "sidebar main"
+        "sidebar lowbar"
+        "sidebar rectangle";
+    height: 100vh;
+    background-color: #47a0bd; 
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    justify-content: center;
+    height: 100vh; 
+    grid-area: sidebar;
+    background-color: #88BAC8;
+    padding-left: 20px; 
+}
+
+.sidebar button {
+    margin: 10px 0;
+    font-family: Verdana, sans-serif; /* Apply Verdana font to sidebar buttons */
 }
