@@ -24,7 +24,7 @@ function showProjects() {
             </div>
             <div class="project-item">
                 <img src="images/project3.png" alt="Project 3">
-                <button onclick="window.open('HI.pdf', '_blank')">Learn More</button>
+                <button onclick="window.open('images/HI.pdf', '_blank')">Learn More</button>
             </div>
         </div>
     `;
