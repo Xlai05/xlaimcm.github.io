@@ -79,8 +79,8 @@ body {
     flex-direction: row; /* Line up items horizontally */
     align-items: center; /* Center items vertically */
     justify-content: center; /* Center items horizontally */
-    gap: 20px; /* Space between project items */
-    padding: 20px; /* Add padding */
+    gap: 100px; /* Space between project items */
+    padding: 30px; /* Add padding */
     height: 100vh; /* Full height to center vertically */
 }
 
@@ -93,9 +93,11 @@ body {
 
 .project-item img {
     max-width: 100%;
+    max-height: 70%;
     height: auto;
     margin-bottom: 10px; /* Space between image and button */
 }
+
 
 .project-item button {
     background-color: #88BAC8; /* Button background color */

@@ -2,11 +2,11 @@ function showProfile() {
     const mainContent = document.getElementById('main-content');
     mainContent.innerHTML = `
         <div class="profile">
-            <p>
+            <p style="border: 2.5px solid #000; padding: 10px;">
                 <strong>Hi! I'm Almar Louisse T. Inoferio</strong><br><br>
                 I'm a second year college student in Bachelor of Science in Computer Science at Mapua Malayan Colleges of Mindanao. I am 20 years old and slightly happy but I'm still persevering in order to be better. I'm a pure Filipino blood and proud, that is probably why I love supporting locals. My interests are listening to music, watching reality shows, scrolling through social media, playing games, and coding.
             </p>
-            <img src="images/profile-image.png" alt="Profile Image" />
+            <img src="images/asdasda.png" alt="Profile Image" />
         </div>
     `;
 }
@@ -15,7 +15,7 @@ function showProjects() {
     mainContent.innerHTML = `
         <div class="projects">
             <div class="project-item">
-                <img src="images/project1.png" alt="Project 1">
+                <img src="images/project1.png" alt="Project 1" style="max-width: 78%; max-height: 70%;">
                 <button onclick="window.open('https://github.com/SavvSean/RentalContracts', '_blank')">Learn More</button>
             </div>
             <div class="project-item">
@@ -58,7 +58,7 @@ function showContacts() {
     mainContent.innerHTML = `
         <div class="contacts">
             <h2>Contact me @: </h2>
-            <ul>
+            <ul style="border: 2.5px solid #000; padding: 10px;">
                 <li>
                     <a href="https://www.instagram.com/al.louisse/" target="_blank">
                         <img src="images/co3.png" alt="Contact 1" class="contact-icon">
