@@ -6,11 +6,10 @@ function showProfile() {
                 <strong>Hi! I'm Almar Louisse T. Inoferio</strong><br><br>
                 I'm a second year college student in Bachelor of Science in Computer Science at Mapua Malayan Colleges of Mindanao. I am 20 years old and slightly happy but I'm still persevering in order to be better. I'm a pure Filipino blood and proud, that is probably why I love supporting locals. My interests are listening to music, watching reality shows, scrolling through social media, playing games, and coding.
             </p>
-            <img src="images/asdsa.png" alt="Profile Image" />
+            <img src="images/profile-image.png" alt="Profile Image" />
         </div>
     `;
 }
-
 function showProjects() {
     const mainContent = document.getElementById('main-content');
     mainContent.innerHTML = `
@@ -25,7 +24,7 @@ function showProjects() {
             </div>
             <div class="project-item">
                 <img src="images/project3.png" alt="Project 3">
-                <button onclick="window.open('images/HI.pdf', '_blank')">Learn More</button>
+                <button onclick="window.open('HI.pdf', '_blank')">Learn More</button>
             </div>
         </div>
     `;
