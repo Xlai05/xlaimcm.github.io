@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.profile, .projects, .certification, .contacts {
+    background-color: #47a0bd; /* Same background color as sidebar */
+    padding: 20px; /* Add padding */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    color: white; /* Text color */
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    grid-template-columns: 200px 1fr;
+    grid-template-areas:
+        "sidebar main"
+        "sidebar lowbar"
+        "sidebar rectangle";
+    height: 100%;
+    background-color: white; /* Background color for the container */
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left */
+    justify-content: center;
+    height: 100vh; /* Full height of the viewport */
+    grid-area: sidebar;
+    background-color: #88BAC8;
+    padding-left: 20px; /* Add some padding to the left */
+}
+
+.sidebar button {
+    margin: 10px 0; /* Space between buttons */
+    background-color: #88BAC8; /* Same background color as sidebar */
+    border: none; /* Remove border */
+    color: white; /* Button text color */
+    padding: 20px; /* Add some padding */
+    text-align: left; /* Left align text */
+    width: 100%; /* Full width */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.sidebar button:hover {
+    background-color: #76A5B7; /* Slightly darker color on hover */
+}
+
+.rectangle, .lowbar, .main {
+    background-color: white; /* Background color for other elements */
+}
+
+.profile {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Align items vertically */
+    gap: 20px; /* Space between text and image */
+    text-align: justify; /* Center the text */
+    height: 100vh; /* Full height to center vertically */
+    padding: 0 50px; /* Add horizontal padding */
+}
+
+.profile img {
+    max-width: 500px; /* Adjust width as needed */
+    height: auto;
+    padding-left: 50px; /* Space between text and image */
+}
+
+.profile p {
+    line-height: 2; /* Double spacing */
+}
+
+.projects {
+    display: flex;
+    flex-direction: row; /* Line up items horizontally */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    gap: 20px; /* Space between project items */
+    padding: 20px; /* Add padding */
+    height: 100vh; /* Full height to center vertically */
+}
+
+.project-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.project-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px; /* Space between image and button */
+}
+
+.project-item button {
+    background-color: #88BAC8; /* Button background color */
+    border: none; /* Remove border */
+    color: white; /* Button text color */
+    padding: 10px 20px; /* Add padding */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.project-item button:hover {
+    background-color: #76A5B7; /* Slightly darker color on hover */
+}
+
+.certification {
+    display: flex;
+    flex-direction: row; /* Line up items horizontally */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    gap: 20px; /* Space between certification items */
+    padding: 20px; /* Add padding */
+    height: 100vh; /* Full height to center vertically */
+}
+
+.certification-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.certification-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px; /* Space between image and button */
+}
+
+
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    height: 100vh; /* Full height to center vertically */
+    text-align: center;
+}
+
+.contacts ul {
+    list-style: none; /* Remove default list styling */
+    padding: 0;
+}
+
+.contacts li {
+    margin: 10px 0; /* Space between list items */
+}
+
+.contacts a {
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Inherit text color */
+    display: flex;
+    align-items: center; /* Center items vertically */
+}
+
+.contact-icon {
+    width: 30px; /* Set width for the icon */
+    height: 30px; /* Set height for the icon */
+    margin-right: 10px; /* Space between icon and text */
+}
