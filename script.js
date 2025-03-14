@@ -28,6 +28,10 @@ function showProjects() {
                 <img src="images/project3.png" alt="Project 3">
                 <button onclick="window.open('images/HI.pdf', '_blank')">Learn More</button>
             </div>
+            <div class="project-item">
+                <img src="images/tubiglami.png" alt="Project 4">
+                <button onclick="window.open('https://github.com/Xlai05/bsmcm.github.io', '_blank')">Learn More</button>
+            <div>    
         </div>
     `;
 }
